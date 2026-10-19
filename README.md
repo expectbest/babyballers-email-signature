@@ -31,3 +31,25 @@ new tag (`v2`), never over `v1`, and the portal is then pointed at the new tag.
 Why here: the pictures used to load from a website behind SiteGround's anti-bot, which sometimes
 answers a picture request with a challenge page instead, so signatures showed broken images.
 jsDelivr serves them to anyone, email apps included, with nothing in the way.
+
+## The welcome email (`v2`)
+
+From `v2`, `welcome-email/` holds the moving pictures in the portal's welcome email for new franchise owners and coaches
+(Bobby kicking the BabyBallers ball into the goal, the step icons, Bobby winking, the rolling ball). They are animated
+GIFs made from the portal's `design/email-welcome/` and served the same way:
+
+```
+https://cdn.jsdelivr.net/gh/expectbest/babyballers-email-signature@v2/welcome-email/<file>
+```
+
+The same rule holds: never rename, move or delete one, or the tag. A changed picture is a new tag.
+
+| File | What it is | Size |
+|---|---|---|
+| `welcome-email/hero.gif` | Bobby kicks the ball past the cones into the goal | 700 x 288 |
+| `welcome-email/portrait.gif` | Bobby winking in his circle, on orange | 208 x 208 |
+| `welcome-email/icon-doc.gif` | Step icon: a document being ticked | 112 x 112 |
+| `welcome-email/icon-lock.gif` | Step icon: a padlock | 112 x 112 |
+| `welcome-email/icon-medal.gif` | Step icon: a swinging medal | 112 x 112 |
+| `welcome-email/chat.gif` | Bobby typing, with a thumbs up and down, on orange | 280 x 64 |
+| `welcome-email/roll.gif` | The ball rolling along the line, on green | 360 x 33 |
