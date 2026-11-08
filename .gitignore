@@ -1,0 +1,2 @@
+# Claude Code's own per-person settings, which can hold passwords
+.claude/settings.local.json
